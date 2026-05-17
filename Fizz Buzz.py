@@ -9,4 +9,3 @@ def fizz_buzz(n):
         return(str(n))
     
 N= int(input("自然数を入力してください"))
-print(fizz_buzz(N))
