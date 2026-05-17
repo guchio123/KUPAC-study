@@ -1,12 +1,12 @@
 def fizz_buzz(n):
     if n % 3 == 0 and n % 5 == 0:
-        print("FizzBuzz")
+        return("FizzBuzz")
     elif n % 3 == 0:
-        print("Fizz")
+        return("Fizz")
     elif n % 5 == 0:
-        print("Buzz")
+        return("Buzz")
     else:
-        print(str(n))
+        return(str(n))
     
 N= int(input("自然数を入力してください"))
-fizz_buzz(N)
+print(fizz_buzz(N))
